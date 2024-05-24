@@ -1,0 +1,16 @@
+{
+  "name": "giantpeach/login-page",
+  "license": "MIT",
+  "autoload": {
+    "psr-4": {
+      "Giantpeach\\Schnapps\\Login\\": "src/"
+    }
+  },
+  "authors": [
+    {
+      "name": "Giant Peach"
+    }
+  ],
+  "require": {
+  }
+}
