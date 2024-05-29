@@ -1,6 +1,7 @@
 {
   "name": "giantpeach/login-page",
   "license": "MIT",
+  "type": "wordpress-plugin",
   "autoload": {
     "psr-4": {
       "Giantpeach\\Schnapps\\LoginPage\\": "src/"
@@ -11,6 +12,17 @@
       "name": "Giant Peach"
     }
   ],
+  "repositories"  :[
+  {
+    "type":"composer",
+    "url":"https://wpackagist.org",
+    "only": [
+        "wpackagist-plugin/*",
+        "wpackagist-theme/*"
+      ]
+    }
+  ],
   "require": {
+    "composer/installers": "~1.0"
   }
 }

@@ -149,3 +149,7 @@ body.body-loaded::after {
   color: #000;
   opacity: 0.8;
 }
+
+.login .message, .login .notice, .login .success {
+  background: #f6f6f6;
+}
