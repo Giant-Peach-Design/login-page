@@ -2,6 +2,19 @@ body {
   background: #FFF;
 }
 
+body.interim-login {
+  background: #f0f0f1;
+}
+
+body.interim-login::after {
+  display: none;
+}
+
+body.interim-login.login h1 a {
+  margin-bottom: 22px;
+  max-width: 100px;
+}
+
 body::after {
   content: '';
   display: block;
@@ -11,7 +24,7 @@ body::after {
   content: 'Website by Giant Peach Agency';
   font-weight: 400;
   color: #000000;
-  padding: 0.5rem 1rem  ;
+  padding: 0.5rem 1rem;
   font-size: 13px;
   font-style: italic;
   transition: opacity 300ms;
